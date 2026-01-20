@@ -33,12 +33,25 @@ nav a.active {
     color:var(--orange);
 }
 
-.hero {
-    background:var(--orange);
-    padding:80px 20px;
-    text-align:center;
-    color:#fff;
+    .hero {
+  background: url("https://images.ctfassets.net/09muo917z9ra/1dHIaG3gmffG1gNNy8wNhY/b56969d7120f6fccc48483b4b14cce20/pexels-thomas-fuhrmann-2154366194-33484883__2_.jpg") center/cover no-repeat;
+  height: 80vh;
+  padding:80px 20px;
+  position: relative;
 }
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
 
 .btn {
     background:var(--blue);
