@@ -57,7 +57,7 @@ nav a.active {
 }
 
 .btn {
-    background:var(--blue);
+    background:var(--red);
     padding:10px 20px;
     color:#fff;
     text-decoration:none;
