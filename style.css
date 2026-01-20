@@ -51,7 +51,10 @@ nav a.active {
   text-align: center;
   padding: 20px;
 }
-
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
 
 .btn {
     background:var(--blue);
